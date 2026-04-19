@@ -14,6 +14,7 @@ mathway doesnt use latex, they use some third language, potentially the one Micr
 general guidence:
 for this project firstly, put serve and index in the same folder. 
 make a subfolder, then put everything else in the subfolder
-llms cant handle writing the full script. you have to create a system prompt that says something like: only give me exact lines to copy and their replacements, or else every edit you make it will delete portions and screw them
+llms cant handle writing the full script. you have to create a system prompt that says something like: only give me exact lines to copy and their replacements, or else every edit you make it will delete portions and screw the preexisting logic
+it might do you well to add to the html, a button that refreshes the js scripts. if you do not do this, it may take 2x as long
 
 i am not sure if sonet is able to handle it, i think opus .6 will work but .7 is a bit buggy, not sure about opus .5 but people have said it is good
